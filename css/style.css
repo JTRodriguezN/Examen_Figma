@@ -1,0 +1,105 @@
+.container {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,164,229,1) 0%, rgba(173,229,255,1) 76%);
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.menu .active{
+    text-decoration: none;
+    color: #3A59FF;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 1.305em;
+    color: #0029FF;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.625em;
+    color: #000000;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.button_1{
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #D3B1EA;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.button_2{
+    color: white;
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.text{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-shadow: 8px 8px 0px #333333;
+    border-radius: 16px; 
+}
+
+footer h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+}
+
+
+
+
+
